@@ -6,7 +6,7 @@ class TelegramClass:
  def __init__(self,token=False,apilink="https://api.telegram.org/",debug=False):
   if not token or not apilink:
    print "You must give me your token!"
-   sys.exit(1)
+   #sys.exit(1)
    return False
   global self_token
   global self_debug
